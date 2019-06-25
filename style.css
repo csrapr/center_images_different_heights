@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: snow;
+}
+
+.container {
+  overflow: hidden;
+  width: 85%;
+  margin: auto;
+}
+
+/*brands*/
+
+#brands {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#brands .brand-item {
+  margin: 10px;
+  min-width: 200px;
+  max-width: 400px;
+  width: 30%;
+  text-align: center;
+}
+
+#brands .brand-item h3 {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+#brands .brand-item p {
+  text-align: justify;
+}
+
+#brands .brand-item .brand-image {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.brand-image img {
+  width: 90px;
+}
